@@ -39,7 +39,8 @@
  ******************************************************************************/
 
 #include "boards/mavrinux.hpp"
-#include "sample_projects/Pennuto/pennuto.hpp"
+
+#include "pennuto.hpp"
 
 #include "hal/dummy/i2c_dummy.hpp"
 #include "simulation/dynamic_model_telemetry.hpp"

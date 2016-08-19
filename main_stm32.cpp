@@ -39,7 +39,8 @@
  ******************************************************************************/
 
 #include "boards/mavrimini.hpp"
-#include "sample_projects/Pennuto/pennuto.hpp"
+
+#include "pennuto.hpp"
 
 extern "C"
 {

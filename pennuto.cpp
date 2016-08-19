@@ -39,7 +39,7 @@
  ******************************************************************************/
 
 
-#include "sample_projects/Pennuto/pennuto.hpp"
+#include "pennuto.hpp"
 
 #include "communication/data_logging_telemetry.hpp"
 #include "communication/state_telemetry.hpp"

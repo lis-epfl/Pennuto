@@ -40,7 +40,8 @@
 
 #include "boards/sparky_v2.hpp"
 
-#include "sample_projects/Pennuto/pennuto.hpp"
+#include "pennuto.hpp"
+ 
 #include "hal/common/time_keeper.hpp"
 
 #include "hal/stm32/spi_stm32.hpp"

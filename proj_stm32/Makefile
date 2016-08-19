@@ -12,14 +12,14 @@ PROJ_NAME=PennutoST
 # ------------------------------------------------------------------------------
 # Project source files (*.c and *.cpp)
 # LIB_SRCS += sample_projects/Pennuto/main_stm32.cpp
-LIB_SRCS += sample_projects/Pennuto/main_sparky_v2.cpp
-LIB_SRCS += sample_projects/Pennuto/pennuto.cpp
+LIB_SRCS += ../projects/Pennuto/main_sparky_v2.cpp
+LIB_SRCS += ../projects/Pennuto/pennuto.cpp
 
 # ------------------------------------------------------------------------------
 # MAVRIC LIBRARY
 # ------------------------------------------------------------------------------
 # MAVRIC_Library code directory
-MAVRIC_LIB=../../../
+MAVRIC_LIB=../../../MAVRIC_Library/
 
 # Include folders for Library
 LIB_INC += -I$(MAVRIC_LIB)

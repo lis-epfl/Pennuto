@@ -38,7 +38,7 @@
  *
  ******************************************************************************/
 
-#include "sample_projects/Pennuto/pennuto.hpp"
+#include "pennuto.hpp"
 
 #include "boards/megafly_rev4/megafly_rev4.hpp"
 
@@ -59,7 +59,7 @@ extern "C"
 #include "hal/piezo_speaker.h"
 #include "libs/asf/avr32/services/delay/delay.h"
 
-#include "sample_projects/Pennuto/proj_avr32/config/conf_imu.hpp"
+#include "proj_avr32/config/conf_imu.hpp"
 }
 
 // #include "hal/common/dbg.hpp"

@@ -11,14 +11,14 @@ PROJ_NAME=PennutoLI
 # PROJECT FOLDER
 # ------------------------------------------------------------------------------
 # Project source files (*.c and *.cpp)
-LIB_SRCS += sample_projects/Pennuto/main_linux.cpp
-LIB_SRCS += sample_projects/Pennuto/pennuto.cpp
+LIB_SRCS += ../projects/Pennuto/main_linux.cpp
+LIB_SRCS += ../projects/Pennuto/pennuto.cpp
 
 # ------------------------------------------------------------------------------
 # MAVRIC LIBRARY
 # ------------------------------------------------------------------------------
 # MAVRIC_Library code directory
-MAVRIC_LIB=../../../
+MAVRIC_LIB=../../../MAVRIC_Library/
 
 # Include folders for Library
 LIB_INC += -I$(MAVRIC_LIB)

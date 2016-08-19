@@ -14,14 +14,14 @@ PROJ_NAME=PennutoAV
 MAVRIC_SRC=../
 
 # Sources files for project folder (*.c and *.cpp)
-SRCS += sample_projects/Pennuto/main_avr32.cpp
-SRCS += sample_projects/Pennuto/pennuto.cpp
+SRCS += ../projects/Pennuto/main_avr32.cpp
+SRCS += ../projects/Pennuto/pennuto.cpp
 
 # ------------------------------------------------------------------------------
 # MAVRIC LIBRARY
 # ------------------------------------------------------------------------------
 # MAVRIC_Library code directory
-MAVRIC_LIB=../../../
+MAVRIC_LIB=../../../MAVRIC_Library/
 
 # Include folders for Library
 LIB_INC += -I$(MAVRIC_LIB)
